@@ -1,0 +1,395 @@
+/* what did this do? */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000; 
+    border-left: 1px solid #4a0000; 
+}
+::-webkit-scrollbar-thumb {
+    background: #1c0000; 
+    border: 1px solid #8b0000; 
+}
+
+/* like ALL OF IT */
+body {
+    background-color: #000000; 
+    color: #cc2222; 
+    font-family: monospace, "Courier-New";
+    font-size: 14px;
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+ 
+}
+
+/* if anyone fucking touches this i yeet myself out a window, like, immedately, i can feel it, i was probably unconcious when i wrote this, i have no fucking clue what it does or why its not just a normal fuckign class but i will splay the gore of the profane form whoever touches this across the stars*/
+#wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    background: #050000; 
+    border: 1px solid #990000; 
+    box-shadow: 0 0 15px rgba(153, 0, 0, 0.2); 
+    padding: 25px;
+    animation: crtAmbientFlicker 0.1s infinite;
+}
+
+/* oh wow i sure wonder what THE FUCKING HEADER TAG DOES HUH? I CANT FUCKING THINK OF WHY I'D EVER MAKE THIS, ITS A COCKSURE MYSTERY GOD I NEED MY FUCKING MONSTER */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0 0 5px 0;
+    letter-spacing: 3px;
+    color: #ff3333; 
+    text-shadow: 0 0 4px rgba(255, 51, 51, 0.4);
+}
+
+.subtitle {
+    font-style: italic;
+    color: #880000; 
+}
+
+/* no this isnt a div stop asking */
+.divider {
+    text-align: center;
+    color: #660000; 
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    user-select: none; 
+}
+.indexdiv {
+    text-align: center;
+    color: #660000; 
+    font-weight: bold;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    user-select: none; 
+}
+
+/* do i even use this? */
+.main-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* like navigation stuff i think, 71-131 probably*/
+.sidebar {
+    flex: 1;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar2 {
+    flex: 1;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.sidebar-box {
+    background: #000000;
+    border: 1px solid #990000; 
+    padding: 15px;
+}
+
+.sidebar-box h3 {
+    margin: 0 0 12px 0;
+    font-size: 1em;
+    color: #ff3333;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.sidebar nav a {
+    color: #cc2222;
+    text-decoration: none;
+    padding: 4px;
+    transition: all 0.1s ease-in-out;
+}
+
+.sidebar nav a:hover {
+    background-color: #990000;
+    color: #000000;
+    padding-left: 8px; 
+}
+
+/* here lies css class .status-zone, it was brutally murdered after realizing that most people dont care what a cranky trans girl was listening to two months ago because she forgot to change the status box that said what was being listened to
+*/
+.status-zone p {
+    margin: 8px 0;
+    font-size: 0.95em;
+}
+
+.mock-button {
+    width: 88px;
+    height: 31px;
+    border: 1px solid #990000;
+    background: #110000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: bold;
+    color: #660000;
+    margin: 10px auto;
+}
+
+.small-text {
+    font-size: 0.85em;
+    text-align: center;
+    margin: 0;
+    color: #660000;
+}
+
+
+.content-feed {
+    flex: 2.5;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-feed h2 {
+    margin-top: 0;
+    font-size: 1.3em;
+    color: #ff3333;
+    border-bottom: 1px solid #440000;
+    padding-bottom: 5px;
+}
+
+
+.updates-box {
+    border: 1px dashed #990000;
+    padding: 15px;
+    background: #030000;
+}
+/* yes, i do happen to enjoy scrollers */
+.scroll-container {
+    max-height: 110px;
+    overflow-y: scroll; 
+    padding-right: 10px;
+    font-size: 0.95em;
+}
+
+.guestbook1 {
+    max-height: 480px;
+    overflow-y: scroll; 
+    padding-right: 10px;
+    font-size: 0.95em;
+}
+.guestbook2 {
+    max-height: 480px;
+    overflow-y: scroll; 
+    padding-right: 10px;
+    font-size: 0.95em;
+    border: dashed 1px red;
+}
+.update-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #220000;
+    padding-bottom: 6px;
+}
+
+.update-item:last-child {
+    border-bottom: none;
+}
+
+.date {
+    color: #ff3333;
+    font-weight: bold;
+}
+
+/* STOPPPPP USINGNNNGNGNNGG  EMOOOOTTIIIICOOONNNNN */
+.glow {
+    color: #ff4d4d;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 77, 77, 0.7);
+}
+
+/* no */
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #660000;
+}
+
+footer a {
+    color: #cc2222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*log thingz */
+.blank-entry-box {
+    border: 1px solid #990000; 
+    background: #000000;       
+    min-height: 120px;         
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: border-color 0.15s ease;
+}
+
+.blank-entry-box:hover {
+    border-color: #ff3333;
+}
+
+.entry-meta {
+    font-size: 0.85em;
+    color: #660000; 
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #e94560;
+}
+
+.profile-box {
+    text-align: center;
+}
+
+/* what do these do, please, charter, tell me, ive been checking this for some 15 minutes and have no clue why you wrote this, it has no purpose*/
+/* oh wait, im stoopid */
+.layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;  
+    margin: 0 auto;    
+    padding: 20px;     
+}
+
+.main-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 250px;
+}
+
+.main-content {
+    flex: 2;
+    min-width: 300px;
+}
+
+
+.panel-box {
+    background-color: #000000; 
+    border: 1px dashed #7a0000; 
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.red-text {
+    color: #e94560;
+    font-weight: bold;
+}
+
+/* why is div so far down, line 305 for fucking div of all things, i mean i know why, we didn't make the div translucent until like a recent update but still, i should probably reorganize this so the important ones are far */
+div { 
+    opacity: 0.9;
+    
+}
+/* put at top and close immediately, big boi div */
+/* .divcrt {
+   
+    pointer-events: none !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 4px, 6px 100%; 
+    z-index: 9999; 
+    
+}
+*/
+  a:link, a:visited {
+  color: 	#DC143C;
+}
+
+.linkno {
+color: inherit;
+text-decoration: none;
+}
+
+textarea {
+  background-color:#950606;
+  color: #FF0000;
+}
+/* i shouldve just named this like, site88 or something but someone *cough cough* charter put this on all her fucking pages and her partner currently writing this isnt going to manually replace this. ITS EVERYWHERE */
+.badge-container {
+  
+  border: 1px dashed;
+  text-align: center;
+  
+}
+
+textarea {
+  transform: translate(4px, 0px); 
+}
+
+.indexgb {
+  font-size:2em;
+  font-weight:bold;
+  text-decoration:underline;
+  color: #ff4d4d;
+  text-shadow: 0 0 5px rgba(255, 77, 77, 0.7);
+}
+
+
+/* winamp shit */
+
+#player-box {
+  position: absolute;
+  top: 1050px;
+  left: 576px;
+ 
+}
+
+
