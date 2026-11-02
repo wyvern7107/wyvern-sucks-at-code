@@ -345,7 +345,7 @@ if lethim== "y":
             continue
     typewriter("Now freed, you try to figure out what happened... ")
     typewriter(f"It's blurry, but you manage remember snippets of what happened,{nl} You remember yelling, the banging, and then the club...."  )   
-    typewriter(f"You rub your head, it stings, you pull your fingers down to your face and see sticky red blood staining them...."
+    typewriter(f"You rub your head, it stings, you pull your fingers down to your face and see sticky red blood staining them....")
     typewriter(f"You could care less about the injuries, escape is the only thing you need at this point...")
     typewriter(f"The door is boarded from the outside, you look around trying to figure out how to escape.")
     typewriter(f"You look around and see the window, though it's locked...")
